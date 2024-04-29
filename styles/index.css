@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER E FOOTER */
+header , footer {
+    width: 100%;
+    background-color: #ba2d2d;
+    color: white;
+    display: flex;
+    padding: 20px 0px;
+}
+
+header{
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header li{
+    display: flex;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header button{
+    padding: 8px;
+    border: none;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+footer{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* CLIENTE */
+
+#cliente{
+    width: 100%;
+}
+
+#agrupamentoCartoes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.cartao{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+#cartao1{
+    background-image: url(../images/cartaoUm.jpg);
+}
+
+#cartao2{
+    background-image: url(../images/cartaoDois.jpg);
+}
+
+#cartao3{
+    background-image: url(../images/cartaoTres.jpg);
+}
+
+/* HORARIO */
+#horario{
+    width: 70%;
+    background-color: white;
+    box-shadow:6px 6px rgba(142, 142, 142, 0.728);
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+th{
+    background-color:#ba2d2d ;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+th:empty{
+    background-color: transparent;
+    border: none;
+}
+
+th:hover{
+    background-color: rgb(232, 232, 232);
+    color: #ba2d2d;
+}
+
+th:empty:hover{
+    background-color: transparent;
+}
+
+/* #teste{
+    width: 200px;
+    height: 200px;
+    background-color: #ba2d2d;
+    position absolute -> desobedece hierarquia, podendo passar coordenadas (top, bottom, right ou end, left ou start)
+    position: fixed;
+} */
+
+
+h3{
+    text-align: center;
+}
